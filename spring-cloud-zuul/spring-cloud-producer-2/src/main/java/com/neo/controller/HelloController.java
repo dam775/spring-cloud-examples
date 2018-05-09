@@ -15,7 +15,7 @@ public class HelloController {
     public String index(@RequestParam String name) {
         logger.info("request two name is "+name);
         try{
-            Thread.sleep(1000000);
+            Thread.sleep(100);
         }catch ( Exception e){
             logger.error(" hello two error",e);
         }
